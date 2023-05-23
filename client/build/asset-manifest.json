@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c9af5f38.css",
+    "main.js": "/static/js/main.0b1d860c.js",
+    "static/media/logo4.svg": "/static/media/logo4.2b9ed26bcb074c296a9523e5ba0cbb58.svg",
+    "static/media/logo1.svg": "/static/media/logo1.9d3d59d485891869120a1a004929a71d.svg",
+    "static/media/paypal.svg": "/static/media/paypal.b050d8c76ffd996bafc53a8dbbe7806d.svg",
+    "static/media/mastercard.svg": "/static/media/mastercard.d647cf2abc538ca92ec93e73bc8289ca.svg",
+    "static/media/applepay.svg": "/static/media/applepay.9f0e5887175c89fa49b4066b252cff73.svg",
+    "static/media/g-pay.svg": "/static/media/g-pay.dede0991820fa2c1bd4c0e2a96b80598.svg",
+    "static/media/arrow-circle.svg": "/static/media/arrow-circle.5c4d8b37926bbc06881b88dc32430c13.svg",
+    "index.html": "/index.html",
+    "static/media/visa.svg": "/static/media/visa.6d5dc4a598ba5ca692a919ad4458e82b.svg",
+    "static/media/youtube.svg": "/static/media/youtube.4deaceecde62aa2d42f512c8258170d6.svg",
+    "static/media/instagram.svg": "/static/media/instagram.a3bf6142f64550455189e4589789ac78.svg",
+    "static/media/twitter.svg": "/static/media/twitter.75f6483b11b0887780e51963fdac9cd4.svg",
+    "static/media/facebook.svg": "/static/media/facebook.7ff2616918e99f57bfe990c656c1d341.svg",
+    "main.c9af5f38.css.map": "/static/css/main.c9af5f38.css.map",
+    "main.0b1d860c.js.map": "/static/js/main.0b1d860c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c9af5f38.css",
+    "static/js/main.0b1d860c.js"
+  ]
+}

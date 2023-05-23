@@ -1,0 +1,97 @@
+.payment-body {
+    margin-top: 60px;
+}
+
+.payment-methods {
+    margin-bottom: 35px;
+}
+
+.payment-label {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.payment-description {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.payment-methods-radiogroup {
+    margin-top: 20px !important;
+    justify-content: space-between;
+}
+
+.payment-one {
+    display: flex;
+    align-items: center;
+}
+
+.payment-method-image {
+    margin-left: 10px;
+    width: fit-content;
+}
+
+.form-check-input:checked {
+    background-color: var(--letter-color) !important;
+    border-color: var(--letter-color) !important;
+}
+
+.payment-input-1 {
+    /* width: 490px !important; */
+    height: 50px !important;
+    margin-top: 15px;
+}
+
+.cardholder-name {
+    margin-bottom: 40px;
+}
+
+
+.card-number {
+    margin-bottom: 40px;
+}
+
+.input-group > input {
+    border-left: none;
+}
+.input-group-text {
+    border-right: none !important;
+    background: white !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    width: 60px;
+    height: 50px !important;
+}
+.input-group-prepend {
+    display: flex;
+    align-items: center;
+    background-color: white !important;
+}
+
+.cvv-number {
+    margin-bottom: 40px;
+}
+
+.cvv-number-input {
+    width: 140px !important;
+    height: 50px !important;
+}
+
+.expire-date-input {
+    width: 85px !important;
+    height: 50px !important;
+}
+
+.payment-info {
+    padding: 60px;
+    box-shadow: 0px 16px 29px rgba(42, 123, 182, 0.1);
+    backdrop-filter: blur(7px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 42px;
+}
+
+.payment-customer-name {
+    font-size: 25px;
+    margin-bottom: 28px;
+}

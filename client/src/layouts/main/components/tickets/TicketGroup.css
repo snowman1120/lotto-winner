@@ -1,0 +1,59 @@
+.ticket-group-container {
+    background-color: var(--normal-button-color);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+/* .ticket-carousel:hover {
+    cursor: grab;
+} */
+
+.carousel-container {
+    margin: 30px 0;
+}
+
+.ticket-group-count {
+    width: '200px' !important;
+    margin-left: '30px' !important;
+}
+
+.ticket-group-count, .ticket-group-count:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.ticket-group-amount {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid var(--selected-button-color);
+    border-radius: 15px;
+}
+
+.ticket-group-amount {
+    font-size: 17px;
+}
+
+.MuiDivider-root::after {
+    display: none;
+}
+
+.ticket-group-per-ticket-price {
+    font-weight: bold;
+}
+
+.ticket-group-total-price {
+    color: var(--dark-red-color);
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.ticket-group-buy-button {
+    width: 60%;
+    height: 60px;
+    text-transform: none !important;
+    background-color: var(--main-color) !important;
+    color: white !important;
+    font-size: 17px !important;
+    margin: 15px 0;
+}

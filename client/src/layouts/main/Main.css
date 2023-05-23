@@ -1,0 +1,91 @@
+.buy-tickets-button {
+    width: 265px;
+    height: 50px;
+    text-transform: none !important;
+    background-color: var(--main-color) !important;
+    color: white !important;
+
+    /* position: fixed !important;
+    top: 140px;
+    right: 30px; */
+}
+
+.main-primary-area {
+    margin: auto;
+    width: 1200px;
+}
+
+@media screen and (max-width: 1360px) {
+    .main-primary-area {
+        width: auto;
+    }
+}
+
+.main-ticket-buttons {
+    margin-bottom: 27px !important;
+}
+
+.main-action {
+    justify-content: center;
+    display: flex;
+    margin-bottom: 85px;
+}
+
+.main-action-input {
+    width: 150px !important;
+    margin-right: 20px !important;
+}
+
+.main-action-submit {
+    width: 265px;
+    text-transform: none !important;
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
+.main-history-grid-item {
+    width: 50%;
+}
+
+.main-history-item {
+    padding: 35px !important;
+    background-color: var(--normal-button-color) !important;
+    height: 186px !important; 
+    border-radius: 16px;
+    margin: auto !important;
+    margin-bottom: 20px !important;
+    width: fit-content !important;
+}
+
+.main-history-item-title {
+    color: var(--main-color) !important;
+    font-weight: 700 !important;
+    font-size: 20px !important;
+    width: fit-content !important;
+    margin-left: 15px !important;
+}
+
+.main-history-number-item {
+    width: 65px !important;
+    height: 65px !important;
+    border-radius: 16px !important;
+    background-color: white !important;
+    color: var(--letter-color) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px !important;
+}
+
+@media screen and (max-width: 1325px) {
+    .main-history-grid-item {
+        width: 100%;
+    }
+}
+
+.main-links {
+    margin-top: 94px !important;
+    margin-bottom: 70px !important;
+    display: flex;
+    justify-content: end;
+}

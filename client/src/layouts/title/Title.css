@@ -1,0 +1,20 @@
+
+.main-title {
+    color: var(--main-color) !important;
+    font-weight : 700 !important;
+    font-size: 30px !important;
+    line-height : 39px !important;
+    text-align : center !important;
+    margin-bottom: 11px !important;
+}
+
+.main-description {
+    margin-bottom: 23px !important;
+}
+.main-description > * {
+    color: black !important;
+    font-weight: 400 !important;
+    font-size: 17px !important;
+    line-height: 25.5px !important;
+    text-align: center !important;
+}

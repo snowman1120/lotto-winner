@@ -1,0 +1,21 @@
+.login-container {
+    width: 475px;
+    padding: 45px 60px 45px 60px !important;
+    margin: auto !important;
+    margin-top: 115px !important;
+
+    background: rgba(255, 255, 255, 0.77) !important;
+    box-shadow: 0px 16px 29px rgba(42, 123, 182, 0.04);
+    backdrop-filter: blur(7px);
+
+    border-radius: 42px;
+}
+
+.login-button {
+    width: 100%;
+    text-transform: none !important;
+    background-color: var(--main-color) !important;
+    color: white !important;
+    margin-top: 28px !important;
+    margin-bottom: 26px !important;
+}

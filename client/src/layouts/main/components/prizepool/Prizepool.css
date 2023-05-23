@@ -1,0 +1,68 @@
+
+.prize-pool {
+    height: 160px !important;
+    width: fit-content !important;
+    border-radius: 16px !important;
+    background-color: var(--secondary-color) !important;
+    margin: auto !important;
+    margin-bottom: 34px !important;
+    padding: 39px 47px 12px 47px !important;
+    display: flex;
+}
+
+.prize-pool-count, .prize-pool-count > p {
+    color: white !important;   
+    /* width: 258px; */
+}
+
+.prize-pool-time {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 20px;
+}
+
+.prize-pool-time-colon {
+    width: 30px;
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.prize-pool-time-item {
+    background-color: white !important;
+    color: var(--letter-color) !important;
+    font-size: 17px !important;
+    border-radius: 16px;
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: background-color 0.2s;
+}
+
+.prize-pool-time-label {
+    font-size: 12px !important;
+    text-align: center !important;
+    color: white !important;
+}
+
+@media screen and (max-width: 680px) {
+    .prize-pool {
+        width: auto !important;
+        height : 235px !important;
+        display : block;
+        justify-content : center;
+        margin: 0 40px !important;
+        padding: 30px !important;
+    }
+    .prize-pool-count {
+        margin: auto;
+    }
+    .prize-pool-time {
+        justify-content: center;
+    }
+}

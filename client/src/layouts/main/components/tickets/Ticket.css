@@ -1,0 +1,65 @@
+.ticket-container {
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 2px solid var(--grey-color);
+    width: fit-content;
+    position: relative;
+    transition: all 0.3s;
+}
+.ticket-container:hover {
+    box-shadow: 0 5px 10px black;
+    margin-top: 13px;
+}
+
+.ticket-header-choose {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 10px;
+    font-size: 17px;
+}
+
+.ticket-quick-choose-button {
+    background-color: grey !important;
+    color: wheat !important;
+    text-transform: none !important;
+}
+
+.ticket-remove-quickchoose {
+    padding: 0 10px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.ticket-ball-remove {
+    height: inherit;
+    width: 25px;
+    color: var(--dark-red-color);
+    cursor: pointer !important;
+}
+
+.ticket-choose-completed-icon {
+    width: 25px;
+    height: inherit;
+    color: var(--selected-button-color);
+}
+
+.ticket-choose-completed-icon.disabled {
+    display: none;
+}
+
+.ticket-number {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 150px;
+    line-height: 1;
+    color: var(--letter-color);
+    opacity: 0.15;
+    font-weight: 900;
+    
+    user-select: none;
+    z-index: -99;
+}

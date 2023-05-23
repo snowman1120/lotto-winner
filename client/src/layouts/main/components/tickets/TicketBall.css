@@ -1,0 +1,47 @@
+.ticket-ball-container {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    user-select: none;
+}
+
+.ticket-ball {
+    /* background-color: var(--grey-color) !important; */
+    border: 1px solid var(--grey-color);
+    width: 100% !important;
+    height: 100% !important;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.ticket-ball.circle {
+    border-radius: 50%;
+}
+.ticket-ball.rectangle {
+    border-radius: 15px;
+}
+
+.ticket-ball > span {
+    color: var(--letter-color) !important;
+}
+.ticket-ball.selected > span {
+    color: white !important;
+}
+
+.ticket-ball:hover {
+    background-color: var(--selected-button-color) !important;
+    opacity: 0.7;
+    border: 1px solid var(--selected-button-color);
+}
+
+.ticket-ball.selected {
+    background-color: var(--selected-button-color) !important;
+    border: 1px solid var(--selected-button-color);
+    color: white;
+}
+
+.ticket-ball.selected:hover {
+    background-color: var(--light-hover-color);
+}

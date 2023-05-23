@@ -1,0 +1,9 @@
+.links-container {
+    display: flex;
+}
+.links-letter {
+    margin-top: 5px !important;
+    margin-right: 34px !important;
+    color: var(--main-color) !important;
+    font-size: 12px !important;
+}
